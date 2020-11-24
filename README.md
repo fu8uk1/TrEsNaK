@@ -50,6 +50,6 @@ $ chmod +x TrEsNaK.sh
 $ sudo bash ./TrEsNaK.sh
 
 
-https://github.com/fu8uk1/TrEsNaK/blob/main/pictures/captu.png?raw=true
+![Screenshot](https://github.com/fu8uk1/TrEsNaK/blob/main/pictures/captu.png)
 
 
