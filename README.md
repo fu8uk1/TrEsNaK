@@ -12,7 +12,7 @@ THIS PROGRAM
 
 ```
 
-![Screenshot](https://github.com/fu8uk1/TrEsNaK/blob/master/pictures/fu8uk1.png)
+![Screenshot](https://github.com/fu8uk1/TrEsNaK/blob/main/pictures/fu8uk1.png)
 
 <h1 align="center"> |Changing the Description of this tool  |<br>
  |Won't made you the coder ^_^ !!!      |<br>
