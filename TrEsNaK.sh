@@ -8,7 +8,7 @@
 #|#Respect Coderz ^_^                   | 
 
 
-#23/11/2020
+#08/06/2021
 
 
 #Colors
@@ -45,8 +45,8 @@ echo "   ";
 echo ""
 echo -e "_____________________________________________________________" 
 echo -e $cyan"TYPE      $white":" $red BASH " 
-echo -e $cyan"VERSION   $white":" $red 2.3 " 
-echo -e $cyan"TOTALS    $white":" $red 9 TOOLS " 
+echo -e $cyan"VERSION   $white":" $red 3 " 
+echo -e $cyan"TOTALS    $white":" $red 10 TOOLS " 
 echo -e $cyan"AUTHOR    $white":" $red FU8UK1  " 
 echo -e $cyan"ASSOCIATE $white":" $red FCA  " 
 echo -e $cyan"BETA TESTER $white":" $red TIGERDAY  " 
@@ -64,7 +64,7 @@ echo ""
 echo ""
 
 echo -e $cyan"######################################" 
-echo -e "#LIST OF TOOLS#" 
+echo -e "#          LIST OF TOOLS             #" 
 echo -e "######################################" 
 
 
@@ -73,7 +73,7 @@ echo -e "######################################"
         echo "[3] ✔ PyFlooder                        [4] ✔ FBI"
         echo "[5] ✔ Cam-Hackers                      [6] ✔ Seeker"
         echo "[7] ✔ PyLoggy                          [8] ✔ fsociety"
-	echo "[9] ✔ shellphish"
+	echo "[9] ✔ shellphish                      [10] ✔ saycheese"
         echo "[q] ✔ Quit"
         echo
         read -p "Select>: " option
@@ -224,7 +224,23 @@ echo -e "######################################"
                 read -p "pess any key to return ..."
                 clear
                 ;;
-            q)  echo -e $yellow " Thanks For Using My Tools Good Bye  {Fu8uk1}  !!"
+           10)  echo "saycheese"
+                echo -e $red "############## saycheese ###################"
+                sleep 2
+                git clone https://github.com/fu8uk1/saycheese > /dev/null 2>&1
+                echo
+                echo  -e $green "[ ✔ ] saycheese  Downloaded " 
+                cd saycheese
+                chmod +x saycheese.sh
+                cd ..
+                echo ""
+                echo -e $red "########## Finish ,Download saycheese ############"
+                echo
+                echo -e $green "【!】Return To The Main Menu【!】"
+                read -p "pess any key to return ..."
+                clear
+                ;;
+            q)  echo -e $yellow " Thanks For Using My Tools Enjoy  {Fu8uk1}  !!"
                 echo
                 exit 0 
                 ;;
